@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../js/gestionarusuario.js"></script>
+    <script src="../js/utilidades.js"></script>
+    <script src="../js/usuario.js"></script>
+</head>
+<body>
+
+    <div>
+        <label for="usario">Usario</label>
+        <input type="text" id="usuario"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="rol">Rol</label>
+        <select id="rol">
+            <option value="paciente"> Paciente</option>
+            <option value="administrador">Administrador</option>
+            </select>
+    </div><br>
+
+    <button onclick="guardar()">Guardar</button>
+    
+</body>
+</html>
